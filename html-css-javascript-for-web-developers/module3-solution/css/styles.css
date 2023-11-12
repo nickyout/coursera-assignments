@@ -1,0 +1,92 @@
+
+/* Navbar */
+
+#header-nav {
+    border-radius: 0;
+    border: 0;
+    background-color: rgb(104, 205, 255);
+}
+
+#header-nav .navbar-brand {
+    height: 70px;
+}
+
+#header-nav h1 {
+    margin: 4px 0;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 600;
+}
+
+#header-nav a, a:hover {
+    text-decoration: none;
+}
+
+/* Navbar menu (collapsible) */
+
+#navbar-menu {
+    border: 0;
+}
+
+#navbar-menu .navbar-nav {
+    background-color: rgb(219, 243, 255);
+    margin-bottom: 0;
+}
+
+#navbar-menu li {
+    border-bottom: 1px solid #4477aa;
+}
+
+#navbar-menu li:nth-child(1) {
+    border-top: 1px solid #4477aa;
+}
+
+#navbar-menu li a {
+    text-align: center;
+    color: #225588;
+}
+
+#navbar-menu li.active a, #navbar-menu li a:hover {
+    background-color: rgb(171, 227, 255);
+}
+
+/* Navbar toggle button */
+
+.navbar-default .navbar-toggle .glyphicon {
+    font-size: 1.8em;
+    margin-top: 2px;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: transparent;
+    color: #4477aa;
+    border: 1px solid #4477aa;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgb(134, 215, 255);
+    color: white;
+    border: 1px solid white;
+}
+
+/* section */
+
+h2 {
+    margin-bottom: 32px;
+}
+
+.section-content {
+    background-color: #F8F8E4;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.section-end {
+    font-size: 0.8em;
+    text-align: center;
+}
